@@ -1,0 +1,24 @@
+{
+  "name": "hotrestaurant",
+  "version": "1.0.0",
+  "description": "hot restaurant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kooldrmony/hotrestaurant.git"
+  },
+  "author": "Donny, Cody, Derrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kooldrmony/hotrestaurant/issues"
+  },
+  "homepage": "https://github.com/kooldrmony/hotrestaurant#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
