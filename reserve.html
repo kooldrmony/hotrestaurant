@@ -57,14 +57,14 @@
     // Question: What does this code do?
     $("#add-btn").on("click", function(event) {
       event.preventDefault();
-      var newCharacter = {
+      var newreservation = {
         name: $("#name").val().trim(),
         email: $("#email").val().trim(),
         phone: $("#phone").val().trim(),
         id: $("#id").val().trim()
       };
       // Question: What does this code do??
-      $.post("/reserve", newCharacter)
+      $.post("/reserve", newreservation)
       .then(function(data) {
         console.log(data);
         alert("Reserving table...Cafe of Lies");
